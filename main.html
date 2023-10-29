@@ -9,35 +9,44 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<header>
-		<h1>Md Shahzadah Sattar's Portfolio</h1>
-		<nav>
-			<ul>
-				<li>About</li>
-				<li>Contact</li>
-				<li>Project</li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section>
-			<h2>About</h2>
-			<img src="path/to/your/image.jpg" alt ="A descriptive text about the image">
-			<p>I am a Software Developer</p>
-		</section>
-		<section>
-			<h2>Project</h2>
-			<ul>
-				<li>Project 1</li>
-				<li>Project 2</li>
-				<li>Project 3</li>
-			</ul>
-		</section>
-	</main>
-	<footer>
-		<h2>Contact</h2>
-		<p>I am from Jharkhand</p>
-	</footer>
+	 <header>
+        <h1 role="heading">Md Shahazadah Sattar's Portfolio</h1>
+        <nav role="navigation">
+            <ul role="list">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2 role="heading">About</h2>
+            <img src="path/to/your/image.jpg" alt="A descriptive text about the image" role="img">
+            <p>I am a software developer.</p>
+        </section>
+        <section id="projects">
+            <h2 role="heading">Projects</h2>
+            <ul role="list">
+                <li role="listitem">Project 1</li>
+                <li role="listitem">Project 2</li>
+                <li role="listitem">Project 3</li>
+            </ul>
+        </section>
+    </main>
+    <footer id="contact">
+        <h2 role="heading">Contact</h2>
+        <p>I am from jharkhand</p>
+    </footer>
+</body>
+</html>
+Make sure to include the 'role' attribute with the value 'list' in the 'ul' elements. This should resolve the error you are encountering.
+
+
+
+
+
+
     <script type="text/javascript" src="./script.js">
 </script>
 
